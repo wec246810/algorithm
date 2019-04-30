@@ -10,7 +10,6 @@ import java.util.Arrays;
  * 时间复杂度：o(nlogn)，最差为o(n^2)
  * 思想：分治法,分治思想。
  *
- *
  **/
 public class QuickSort {
     public static void quickSort(int[] arr, int startIndex, int endIndex) {
