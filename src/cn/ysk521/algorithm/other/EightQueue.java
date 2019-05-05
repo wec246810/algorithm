@@ -56,9 +56,9 @@ public class EightQueue {
     public static void main(String[] args) {
         List<List<String>> lists = solveNQueens(8);
         System.out.println(lists.size());
-        lists.forEach(list->{
-            list.forEach(l->{
-                System.out.println(l+"\n");
+        lists.forEach(list -> {
+            list.forEach(l -> {
+                System.out.println(l + "\n");
             });
 
             System.out.println("------------------");

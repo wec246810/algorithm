@@ -6,10 +6,11 @@ import java.util.Arrays;
  * @description: 快速排序
  * @author: yangshangkun
  * @Date: 2019-04-29 14:59
- *
+ * <p>
  * 时间复杂度：o(nlogn)，最差为o(n^2)
  * 思想：分治法,分治思想。
- *
+ * <p>
+ * 分治法：就是将一个复杂的问题拆解为n个简单的问题进行解决，通常和递归配合使用。
  **/
 public class QuickSort {
     public static void quickSort(int[] arr, int startIndex, int endIndex) {
